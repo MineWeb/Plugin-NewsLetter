@@ -1,3 +1,8 @@
 {
-  "NEWSLETTER__TITLE": "Newsletter"
+	"NEWSLETTER__TITLE": "Newsletter",
+	"NEWSLETTER__COUNT": "Number of users who activated the NewsLetter:",
+	"NEWSLETTER__OBJECT_MAIL": "Subject of the mail",
+	"NEWSLETTER__MESSAGE_MAIL": "Message of the mail",
+	"NEWSLETTER__PROFIL_ABOUT": "What is the NewsLetter?",
+	"NEWSLETTER__PROFIL_ABOUT_EXPLAIN": "The NewsLetter lets you stay informed about what's new on the server!"
 }

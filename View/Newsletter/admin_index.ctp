@@ -6,12 +6,12 @@
                     <h3 class="box-title"><?= $Lang->get('NEWSLETTER__TITLE') ?></h3>
                 </div>
                 <div class="box-body">
-                  Nombre d'utilisateurs ayant activé la NewsLetter: <b><?= count($usersNLetter); ?></b>
+                  <?= $Lang->get('NEWSLETTER__COUNT') ?> <b><?= count($usersNLetter); ?></b>
                   <hr>
                   <form method="post"  class="form-horizontal" data-ajax="true" data-redirect-url="?" action="<?= $this->Html->url(array('controller' => 'Newsletter', 'action' => 'ajax_sendmail')) ?>">
-                    <label>Objet du mail</label>
+                    <label><?= $Lang->get('NEWSLETTER__OBJECT_MAIL') ?></label>
                     <input type="text" class="form-control" name="subjet_msg"><br />
-                    <label>Message du mail</label>
+                    <label><?= $Lang->get('NEWSLETTER__MESSAGE_MAIL') ?></label>
                     <?= $this->Html->script('admin/tinymce/tinymce.min.js') ?>
                     <script type="text/javascript">
                     tinymce.init({
