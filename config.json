@@ -1,1 +1,24 @@
-{"name":"NewsLetter","admin_menus":{"GLOBAL__ADMIN_GENERAL":{"NewsLetter":{"icon":"envelope-o","route":"/admin/newsletter"}}},"author":"EmpireDev","version":"1.0.3","apiID":136,"useEvents":false,"permissions":{"available":[],"default":{"0":[],"2":[]}},"requirements":{"CMS":"^1.2.0"}}
+{
+   "name":"NewsLetter",
+   "admin_menus":{
+      "GLOBAL__ADMIN_PLUGINS":{
+         "NewsLetter":{
+            "icon":"envelope-o",
+            "route":"/admin/newsletter"
+         }
+      }
+   },
+   "author":"EmpireDev",
+   "version":"1.0.4",
+   "useEvents":false,
+   "permissions":{
+      "available":[],
+      "default":{
+         "0":[],
+         "2":[]
+      }
+   },
+   "requirements":{
+      "CMS":"^1.2.0"
+   }
+}
