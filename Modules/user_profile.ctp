@@ -7,12 +7,12 @@
       <br>
       <small><?= $Lang->get('NEWSLETTER__PROFIL_ABOUT_EXPLAIN') ?></small>
       <div class="radio">
-        <input type="radio" name="newsletter-value" value="true" <?= ($user['newsletter-state'] == 'true') ? 'checked=""' : 'checked' ?>>
-        <label><?= $Lang->get('GLOBAL__ENABLE') ?></label>
+        <input style="margin:0;" id="nl-true" type="radio" name="newsletter-value" value="true" <?= ($user['newsletter-state'] == 'true') ? 'checked=""' : 'checked' ?>>
+        <label for="nl-false"><?= $Lang->get('GLOBAL__ENABLE') ?></label>
       </div>
       <div class="radio">
-        <input type="radio" name="newsletter-value" value="false" <?= ($user['newsletter-state'] == 'false') ? 'checked=""': '' ?>>
-        <label><?= $Lang->get('GLOBAL__DISABLE') ?></label>
+        <input style="margin:0;" id="nl-false" type="radio" name="newsletter-value" value="false" <?= ($user['newsletter-state'] == 'false') ? 'checked=""': '' ?>>
+        <label for="nl-false"><?= $Lang->get('GLOBAL__DISABLE') ?></label>
       </div>
     </div>
     <button type="submit" class="btn btn-primary"><?= $Lang->get('GLOBAL__SUBMIT'); ?></button>
