@@ -1,4 +1,3 @@
-Ce plugin vous permet d'envoyer des mails groupés aux joueurs ayant activé la newsletter sur leur profil
 # Plugin MineWeb | Newsletter
 
 
@@ -15,7 +14,7 @@ Le plugin Newsletter ajoute la possibilitée d'envoyer des mails groupés, perme
 
 ## Installation | Site
 1. Rendez-vous à l'adresse "VotreSite/admin/plugin".
-2. Cherchez le plugin "Newsletter" dans le tableau "Plugins gratuits et achetés disponibles".
+2. Cherchez le plugin "Newsletter" dans le tableau.
 3. Cliquez sur "Installer" pour installer le plugin sur votre site.
 4. Supprimez tous les fichiers dans le "/app/tmp/cache" de votre FTP.
 5. Installation effectuée.
